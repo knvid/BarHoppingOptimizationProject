@@ -82,3 +82,55 @@ This resulted in a total minimum cost of approximately `$25`.
 
 ### Optimal Walking Route
 To minimize walking distance, the following route was suggested:
+
+3’s -> The Library Bar -> Midway -> Leo’s on the Alley -> Ethyl and Tank -> Back to 3’s
+
+The total walking distance was minimized to **1.64 miles**, ensuring convenience for participants.
+
+---
+
+## Tools and Technologies Used
+
+- **Python**: For data processing, modeling, and visualization.
+- **Pandas**: For data manipulation and analysis.
+- **NumPy**: For matrix operations (e.g., distance matrix).
+- **PuLP/OR-Tools**: To solve the mixed linear programming problem.
+- **Matplotlib/Seaborn**: For visualizing results like bar routes and cost breakdowns.
+
+---
+
+## Skills Demonstrated
+
+This project highlights several key data science skills:
+
+1. **Data Analysis**:
+   - Extracted actionable insights from raw data on drink prices, bar ratings, and distances.
+
+2. **Mathematical Modeling**:
+   - Formulated a mixed linear programming problem with real-world constraints like budgets, operating hours, and distances.
+
+3. **Optimization Algorithms**:
+   - Solved complex optimization problems using Python libraries like PuLP/OR-Tools.
+
+4. **Data Visualization**:
+   - Created clear visualizations to communicate results effectively (e.g., bar routes, cost breakdowns).
+
+5. **Problem-Solving**:
+   - Translated a real-world problem into a structured mathematical framework and derived practical solutions.
+
+---
+
+## Future Improvements
+
+While this project provides a solid foundation, there are opportunities for enhancement:
+
+1. Incorporate real-time data (e.g., live wait times or drink specials).
+2. Add support for larger datasets with more bars across different cities.
+3. Use geospatial APIs (e.g., Google Maps API) for more accurate distance calculations.
+4. Introduce user preferences (e.g., favorite drinks or ambiance) into the optimization model.
+
+---
+
+## Acknowledgments
+
+This project was inspired by college life experiences and aims to blend practicality with fun through data science! Feel free to reach out with questions or suggestions! 😊
